@@ -1,0 +1,43 @@
+{
+  "name": "session-auto-title",
+  "version": "0.1.0",
+  "description": "Automatically rename idle Paseo sessions from their conversation.",
+  "license": "MIT",
+  "author": "mrgolftech",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrgolftech/paseo-session-auto-title.git"
+  },
+  "homepage": "https://github.com/mrgolftech/paseo-session-auto-title#readme",
+  "keywords": [
+    "paseo",
+    "paseo-plugin",
+    "session",
+    "title",
+    "rename"
+  ],
+  "files": [
+    "paseo-plugin.json",
+    "OVERVIEW.md",
+    "README.md",
+    "LICENSE",
+    "index.client.tsx",
+    "index.server.ts",
+    "client/",
+    "server/",
+    "shared/"
+  ],
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@getpaseo/plugin": "0.17.4",
+    "@tanstack/react-query": "^5.90.11",
+    "@types/node": "^26.6.7",
+    "@types/react": "~19.2.0",
+    "react": "19.1.0",
+    "react-native": "0.81.5",
+    "typescript": "^5.9.3",
+    "zod": "^4.4.3"
+  }
+}

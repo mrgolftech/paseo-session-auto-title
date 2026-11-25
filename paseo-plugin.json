@@ -1,0 +1,15 @@
+{
+  "id": "session-auto-title",
+  "name": "Session Auto Title",
+  "description": "Automatically rename idle Paseo sessions from their conversation, in Chinese by default, with optional workspace title sync.",
+  "translations": {
+    "zh-CN": {
+      "name": "会话自动标题",
+      "description": "会话空闲后按多轮对话自动生成中文标题；默认同步侧栏 workspace 标题，用户手改后永久停止"
+    }
+  },
+  "media": [],
+  "requirements": {
+    "paseo": ">=0.17.4"
+  }
+}
