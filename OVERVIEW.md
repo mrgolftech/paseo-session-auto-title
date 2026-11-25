@@ -16,7 +16,7 @@ The Paseo generator reads the metadata generation model from the daemon config. 
 
 ## Settings and limits
 
-The idle wait defaults to 30 seconds. The rename policy defaults to naming once, after the first meaningful conversation; the other option refreshes the title after every idle turn. The naming prompt is fully editable and supports `{MMDD}`.
+The idle wait defaults to 30 seconds. The rename policy defaults to naming once, after the first meaningful conversation; the other option refreshes the title after every idle turn. The naming prompt is fully editable and supports `{MMDD}`. Workspace title sync is a display convenience: a workspace can hold more than one session, so the last session to finish sets the name shown for all of them.
 
 Manual renames are respected. If the title changes outside the plugin, or the caller explicitly sets a title when creating the session, the plugin stops renaming that session permanently. The force action in settings unlocks every session and reschedules it.
 

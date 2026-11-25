@@ -58,9 +58,9 @@ agent in the same workspace, waits for its answer, and archives it.
 | Enabled | on | Master switch. |
 | Idle seconds | 30 | How long the session must stay idle before naming. |
 | Rename mode | first | `first` names once after the first meaningful conversation; `each` refreshes the title after every idle turn. |
-| Sync workspace title | on | Copy the new title to the workspace display name. |
+| Sync workspace title | on | Copy the new title to the workspace display name. A workspace can hold more than one session, so the last session to finish sets the name shown for all of them. |
 | Engine | pi | `pi` (local CLI) or `paseo` (background agent). |
-| Model | empty | Optional provider/model override, for example `anthropic/claude-sonnet-5-5`. Only used by the Paseo engine. |
+| Model | empty | Optional provider/model override in the form `provider/model`, as listed by `paseo models`. Only used by the Paseo engine. |
 | Date prefix | off | Prefix the title with `MMDD`. The prompt can also use the `{MMDD}` placeholder. |
 | Prompt | built-in | The full title prompt. Must keep the single-line JSON output contract. |
 
